@@ -1,0 +1,13 @@
+2025-08-21 11:52:25,346 - INFO - Data Processing...
+2025-08-21 11:52:26,838 - INFO - Data loaded successfully from artifacts/raw/animelist.csv
+2025-08-21 11:52:27,134 - INFO - Filtered users with at least 400 ratings
+2025-08-21 11:52:29,438 - INFO - Ratings scaled to [0, 1]
+2025-08-21 11:52:29,916 - INFO - Data encoded successfully
+2025-08-21 11:52:31,339 - INFO - Data split into training and testing sets
+2025-08-21 11:52:31,411 - INFO - Saved user_encoding to artifacts/processed/user_encoding.pkl
+2025-08-21 11:52:31,440 - INFO - Saved user_decoding to artifacts/processed/user_decoding.pkl
+2025-08-21 11:52:31,545 - INFO - Saved anime_encoding to artifacts/processed/anime_encoding.pkl
+2025-08-21 11:52:31,680 - INFO - Saved anime_decoding to artifacts/processed/anime_decoding.pkl
+2025-08-21 11:52:39,764 - INFO - Artifacts saved successfully
+2025-08-21 11:52:46,746 - INFO - Anime data processed and saved successfully
+2025-08-21 11:52:46,748 - INFO - Data processing pipeline completed successfully

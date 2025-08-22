@@ -1,0 +1,47 @@
+2025-08-22 11:19:11,364 - INFO - Model Training initialised...
+2025-08-22 11:20:10,853 - INFO - Model Training initialised...
+2025-08-22 11:20:11,126 - INFO - Data loaded successfully
+2025-08-22 11:20:11,228 - INFO - YAML file read successfully from config/config.yaml
+2025-08-22 11:20:11,228 - INFO - Configuration loaded successfully
+2025-08-22 11:20:11,378 - INFO - Model created successfully
+2025-08-22 11:21:05,839 - INFO - Model trained successfully
+2025-08-22 11:21:05,839 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-22 11:21:05,982 - INFO - Model saved at ARTIFACTS/model\model.h5
+2025-08-22 11:21:05,985 - INFO - Weights extracted for layer: user_embedding
+2025-08-22 11:21:06,010 - INFO - Weights extracted for layer: anime_embedding
+2025-08-22 11:21:06,032 - INFO - User and Anime weights saved successfully
+2025-08-22 16:03:05,705 - INFO - Model Training & COMET ML initialised...
+2025-08-22 16:03:05,848 - INFO - Data loaded successfully
+2025-08-22 16:03:05,892 - INFO - YAML file read successfully from config/config.yaml
+2025-08-22 16:03:05,893 - INFO - Configuration loaded successfully
+2025-08-22 16:03:05,991 - INFO - Model created successfully
+2025-08-22 16:04:11,943 - INFO - Model trained successfully
+2025-08-22 16:04:11,944 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-22 16:04:12,101 - INFO - Model saved at ARTIFACTS/model\model.h5
+2025-08-22 16:04:12,105 - INFO - Weights extracted for layer: user_embedding
+2025-08-22 16:04:12,136 - INFO - Weights extracted for layer: anime_embedding
+2025-08-22 16:04:12,291 - INFO - User and Anime weights saved successfully
+2025-08-22 16:34:20,770 - INFO - Data Processing...
+2025-08-22 16:34:26,924 - INFO - Data loaded successfully from artifacts/raw/animelist.csv
+2025-08-22 16:34:28,167 - INFO - Filtered users with at least 400 ratings
+2025-08-22 16:34:31,766 - INFO - Ratings scaled to [0, 1]
+2025-08-22 16:34:32,002 - INFO - Data encoded successfully
+2025-08-22 16:34:32,820 - INFO - Data split into training and testing sets
+2025-08-22 16:34:32,838 - INFO - Saved user_encoding to artifacts/processed/user_encoding.pkl
+2025-08-22 16:34:32,859 - INFO - Saved user_decoding to artifacts/processed/user_decoding.pkl
+2025-08-22 16:34:32,938 - INFO - Saved anime_encoding to artifacts/processed/anime_encoding.pkl
+2025-08-22 16:34:33,022 - INFO - Saved anime_decoding to artifacts/processed/anime_decoding.pkl
+2025-08-22 16:34:42,287 - INFO - Artifacts saved successfully
+2025-08-22 16:34:50,978 - INFO - Anime data processed and saved successfully
+2025-08-22 16:34:50,981 - INFO - Data processing pipeline completed successfully
+2025-08-22 16:34:56,504 - INFO - Model Training & COMET ML initialised...
+2025-08-22 16:34:56,601 - INFO - Data loaded successfully
+2025-08-22 16:34:56,635 - INFO - YAML file read successfully from config/config.yaml
+2025-08-22 16:34:56,636 - INFO - Configuration loaded successfully
+2025-08-22 16:34:56,714 - INFO - Model created successfully
+2025-08-22 16:35:50,037 - INFO - Model trained successfully
+2025-08-22 16:35:50,038 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-22 16:35:50,133 - INFO - Model saved at ARTIFACTS/model\model.h5
+2025-08-22 16:35:50,135 - INFO - Weights extracted for layer: user_embedding
+2025-08-22 16:35:50,155 - INFO - Weights extracted for layer: anime_embedding
+2025-08-22 16:35:50,281 - INFO - User and Anime weights saved successfully

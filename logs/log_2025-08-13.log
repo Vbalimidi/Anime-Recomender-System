@@ -1,0 +1,8 @@
+2025-08-13 12:11:44,291 - INFO - YAML file read successfully from config/config.yaml
+2025-08-13 12:11:44,293 - INFO - DATA INGESTION STARTED ....
+2025-08-13 12:11:44,293 - INFO - Starting data ingestion process
+2025-08-13 12:11:59,625 - INFO - Downloading smaller files
+2025-08-13 12:12:00,776 - INFO - Downloading smaller files
+2025-08-13 12:14:16,967 - INFO - Only downloading 5M rows
+2025-08-13 12:14:16,975 - INFO - Data ingestion completed
+2025-08-13 12:14:16,975 - INFO - DATA INGESTION COMPLETED
