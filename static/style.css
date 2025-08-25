@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: url("https://i.pinimg.com/originals/65/3f/5c/653f5cd2d2cb2e3d9f1bb9cbb774d3b4.jpg") no-repeat center center/cover;
+  opacity: 0.3;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 2.5rem;
+  color: #ff4d79;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+/* Form Container */
+.form-container {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border: none;
+  padding: 0.9rem 1.8rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Results - Clean List */
+.results {
+  margin-top: 2rem;
+  text-align: left;
+}
+.results h2 {
+  color: #ff4d79;
+  margin-bottom: 1rem;
+}
+.results ul {
+  list-style: none;
+  padding-left: 0;
+}
+.results li {
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.4rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  font-weight: 600;
+  color: #333;
+  transition: background 0.2s ease;
+}
+.results li:hover {
+  background: #ffe1ec;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #555;
+}

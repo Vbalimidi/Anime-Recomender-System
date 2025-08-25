@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Recommender</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <h1>Anime Recommender</h1>
+    <p class="subtitle">Discover your next favorite series</p>
+  </header>
+
+  <main class="form-container">
+    <form action="/" method="POST">
+      <label for="anime_name">Enter Anime Name:</label>
+      <input type="text" id="anime_name" name="anime_name" placeholder="e.g.Steins;Gate" required>
+      <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if recommendations %}
+    <div class="results">
+      <h2>Recommended Animes For {{input_anime}}</h2>
+      <ul>
+        {% for anime in recommendations %}
+        <li>{{ anime }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </main>
+</body>
+</html>
