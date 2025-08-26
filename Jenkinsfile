@@ -53,7 +53,7 @@ pipeline{
                     gcloud config set project ${GCP_PROJECT}
                     gcloud auth configure-docker --quiet
                     docker build -t gcr.io/${GCP_PROJECT}/anime-recomender:latest .
-                    docker push grc.io/${GCP_PROJECT}/anime-recomender:latest
+                    docker push gcr.io/${GCP_PROJECT}/anime-recomender:latest
                     '''
                 }
             }
